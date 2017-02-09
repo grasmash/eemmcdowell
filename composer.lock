@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "519eb084d3f57d9efab78c803fd53ba6",
+    "content-hash": "ea4ae3c85fc4a0294f3efca4aee38882",
     "packages": [
         {
             "name": "acquia/blt",
@@ -1736,7 +1736,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/cog-8.x-1.4.zip",
-                "reference": null,
+                "reference": "8.x-1.4",
                 "shasum": "4fdfcf16dbc3a3ff6324ca3e490618ad1d093f1c"
             },
             "require": {
@@ -2680,7 +2680,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/entity_browser-8.x-1.0-rc1.zip",
-                "reference": null,
+                "reference": "8.x-1.0-rc1",
                 "shasum": "290b9db0f2b0f30bc59a4c18d869e58ce85de63d"
             },
             "require": {
@@ -5495,10 +5495,11 @@
         {
             "name": "enyo/dropzone",
             "version": "4.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/enyo/dropzone",
-                "reference": "origin/master"
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/enyo/dropzone/archive/v4.2.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "drupal-library"
         },
